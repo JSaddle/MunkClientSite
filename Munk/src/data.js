@@ -70,3 +70,27 @@ export const popularProducts = [
         title: "Tshirt 2"
     }
 ]
+
+export const galleryItems = [
+    {
+        id: 1,
+        img: "https://i.imgur.com/X9GZB5V.jpeg",
+        title: "BASS BARN 2022",
+        desc: "WUBS & DUBS WITH THE FAM FT. ORBIIX",
+        bg: "dcdcdc",
+    },
+    {
+        id: 2,
+        img: "https://i.imgur.com/erwP258.jpeg",
+        title: "BOURBON 2022",
+        desc: "DEEP WUBS IN WICKER PARK",
+        bg: "dcdcdc",
+    },
+    {
+        id: 3,
+        img: "https://i.imgur.com/69WMuZ9.jpeg",
+        title: "BASS STATION 2022",
+        desc: "HALFTIME WITH THE HOMIE ORBIIX",
+        bg: "dcdcdc",
+    }
+]
