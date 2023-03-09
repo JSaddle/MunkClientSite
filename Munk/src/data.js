@@ -92,5 +92,40 @@ export const galleryItems = [
         title: "BASS STATION 2022",
         desc: "HALFTIME WITH THE HOMIE ORBIIX",
         bg: "dcdcdc",
+    },
+    {
+        id: 4,
+        img: "https://i.imgur.com/H0mCSBC.jpeg",
+        title: "BASS STATION 2022",
+        desc: "HALFTIME WITH THE HOMIE ORBIIX",
+        bg: "dcdcdc",
+    },
+    {
+        id: 5,
+        img: "https://i.imgur.com/SVADkAT.jpeg",
+        title: "BASS STATION 2022",
+        desc: "HALFTIME WITH THE HOMIE ORBIIX",
+        bg: "dcdcdc",
+    },
+    {
+        id: 6,
+        img: "https://i.imgur.com/FM4InMl.jpeg",
+        title: "BASS STATION 2022",
+        desc: "HALFTIME WITH THE HOMIE ORBIIX",
+        bg: "dcdcdc",
+    },
+    {
+        id: 7,
+        img: "https://i.imgur.com/MqYFEnO.jpeg",
+        title: "BASS STATION 2022",
+        desc: "HALFTIME WITH THE HOMIE ORBIIX",
+        bg: "dcdcdc",
+    },
+    {
+        id: 8,
+        img: "https://i.imgur.com/mMdUjU4.jpeg",
+        title: "BASS STATION 2022",
+        desc: "HALFTIME WITH THE HOMIE ORBIIX",
+        bg: "dcdcdc",
     }
 ]

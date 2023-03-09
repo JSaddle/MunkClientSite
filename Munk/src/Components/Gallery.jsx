@@ -97,9 +97,9 @@ const Gallery = () => {
     const handleClick = (direction) => {
 
         if (direction === "left") {
-            setGalleryIndex(galleryIndex > 0 ? galleryIndex - 1 : 2)
+            setGalleryIndex(galleryIndex > 0 ? galleryIndex - 1 : 3)
         } else {
-            setGalleryIndex(galleryIndex < 2 ? galleryIndex + 1 : 0)
+            setGalleryIndex(galleryIndex < 3 ? galleryIndex + 1 : 0)
         }
     };
 
