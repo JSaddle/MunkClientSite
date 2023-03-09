@@ -74,7 +74,7 @@ export const popularProducts = [
 export const galleryItems = [
     {
         id: 1,
-        img: "https://i.imgur.com/X9GZB5V.jpeg",
+        img: "https://i.imgur.com/mMdUjU4.jpeg",
         title: "BASS BARN 2022",
         desc: "WUBS & DUBS WITH THE FAM FT. ORBIIX",
         bg: "dcdcdc",
@@ -123,7 +123,7 @@ export const galleryItems = [
     },
     {
         id: 8,
-        img: "https://i.imgur.com/mMdUjU4.jpeg",
+        img: "https://i.imgur.com/X9GZB5V.jpeg",
         title: "BASS STATION 2022",
         desc: "HALFTIME WITH THE HOMIE ORBIIX",
         bg: "dcdcdc",

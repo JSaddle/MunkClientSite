@@ -35,6 +35,10 @@ const Arrow = styled.div`
     cursor: pointer;
     // opacity: 0.5;
     z-index: 2;
+
+    &:hover{
+        background-color: #ffe8f8;
+    }
 `
 
 const Wrapper = styled.div`
@@ -42,7 +46,7 @@ const Wrapper = styled.div`
     display: flex;
     transition: all 1.5s ease;
     transform: translateX(${props => props.galleryIndex * -100}vw);
-    border-style: solid;
+    // border-style: solid;
 `
 
 const Slide = styled.div`
@@ -64,7 +68,7 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
     height: 80%;
-    width: 50vw;
+    width: 70vw;
     border-style: solid outset;
     border-width: 20px 10px;
 `
@@ -97,9 +101,9 @@ const Gallery = () => {
     const handleClick = (direction) => {
 
         if (direction === "left") {
-            setGalleryIndex(galleryIndex > 0 ? galleryIndex - 1 : 3)
+            setGalleryIndex(galleryIndex > 0 ? galleryIndex - 1 : 7)
         } else {
-            setGalleryIndex(galleryIndex < 3 ? galleryIndex + 1 : 0)
+            setGalleryIndex(galleryIndex < 7 ? galleryIndex + 1 : 0)
         }
     };
 
