@@ -6,13 +6,14 @@ import {mobile} from "../Responsive"
 
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     background-color: white;
     position: relative;
     // border: 5px solid rgba(0, 0, 9, 0.5);
     overflow: hidden;
     ${mobile({ display: "none"})}
+    margin-bottom: 0px;
     
 `
 
