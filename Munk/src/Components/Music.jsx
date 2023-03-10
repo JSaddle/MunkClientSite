@@ -2,13 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-
+  background-color: #dcdcdc;
+  display: flex;
+  flex-direction: column;
 `
 
 const Music = () => {
   return (
     <Container>
-    <div>
+    <div alignItems="center" justifyContent="center">
     <iframe width="100%" 
         height="166" 
         scrolling="no" 
