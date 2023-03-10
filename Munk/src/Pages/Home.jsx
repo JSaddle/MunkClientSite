@@ -6,7 +6,8 @@ import Slider from '../Components/Slider'
 import Products from '../Components/Products'
 import Newsletter from '../Components/Newsletter'
 import Footer from '../Components/Footer'
-// import Music from '../Components/Music'
+import Music from '../Components/Music'
+// import Soundcloud from '../Components/Soundcloud'
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
     <Announcement/>
     <Navbar/>
     <Slider/>
+    {/* <Soundcloud/> */}
+    <Music/>
     <Categories/>
     <Products/>
     <Newsletter/>
