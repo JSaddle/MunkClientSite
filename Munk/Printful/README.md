@@ -1,0 +1,1 @@
+Here is the start of the trial with Printful API. Once logistics have been confirmed with a client, steps will be taken to perform the proper implementation of the product list.
